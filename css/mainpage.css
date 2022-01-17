@@ -6,12 +6,12 @@
 
 .container {
     padding: 1rem;
-    position: relative;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: white;
 
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -36,3 +36,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+
+.curve-holder {
+    width: 100%;
+}
