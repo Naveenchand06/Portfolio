@@ -40,8 +40,8 @@ svg {
 }
 
 .my-card p {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
-  font-family: "montserrat";
+  font-style: normal;
+  font-family: "Readex Pro", sans-serif;
 }
-
